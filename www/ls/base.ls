@@ -55,7 +55,7 @@ init = ->
     ..style \fill (d, i) -> chordFill i
     ..style \stroke (d, i) -> chordFill i
     ..attr \data-tooltip ({source, target}:d) ->
-      "<b>#{data[source.index].strana.nazev}</b> a <b>#{data[target.index].strana.nazev}</b> jsou v koalici na <b>#{source.value}</b> kandidátkách"
+      "<b>#{data[source.index].strana.nazev}</b> a <b>#{data[target.index].strana.nazev}</b> sdílí na kandidátkách <b>#{source.value}</b> lidí"
 
 if d3?
   init!
