@@ -10,17 +10,19 @@ init = ->
   innerRadius = 550 * 0.48
   outerRadius = 550 * 0.5
   colors =
-    \#0FB103
-    \#FEE300
-    \#8E8E8E
-    \#5434A3
-    \#1C76F0
-    \#e3001a
-    \#f29400
-    \#66E2D8
-    \#B1C484
-    \#000000
-    \#FB9A99
+    \#ffff99
+    \#6a3d9a
+    \gray
+    \#1f78b4
+    \#33a02c
+    \#b15928
+    \#fdbf6f
+    \#b2df8a
+    \black
+    \#a6cee3
+    \#fb9a99
+    \#e31a1c
+    \#ff7f00
   arcFill = (d, i) ->
     colors[i]
 
