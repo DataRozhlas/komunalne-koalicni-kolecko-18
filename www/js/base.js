@@ -9,15 +9,15 @@
     x$ = chord = d3.layout.chord();
     x$.matrix(data);
     x$.padding(0.05);
-    width = 610;
-    height = 610;
-    innerRadius = 550 * 0.48;
+    width = window.innerWidth;
+    height = window.innerWidth;
+    innerRadius = (window.innerWidth - 60) * 0.48;
     outerRadius = 550 * 0.5;
     colors = ['#ffff99', '#6a3d9a', 'gray', '#1f78b4', '#33a02c', '#b15928', '#fdbf6f', '#b2df8a', 'black', '#a6cee3', '#fb9a99', '#e31a1c', '#ff7f00'];
     arcFill = function(d, i){
       return colors[i];
     };
-    chordFill = d3.scale.category20c();
+    chordFill = d3.scale.ordinal().range(colors);
     y$ = svg = container.append('svg');
     y$.attr('width', width);
     y$.attr('height', height);

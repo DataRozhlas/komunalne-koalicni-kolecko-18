@@ -5,9 +5,9 @@ init = ->
   chord = d3.layout.chord!
     ..matrix data
     ..padding 0.05
-  width = 610
-  height = 610
-  innerRadius = 550 * 0.48
+  width = window.innerWidth;
+  height = window.innerWidth;
+  innerRadius = (window.innerWidth - 60) * 0.48
   outerRadius = 550 * 0.5
   colors =
     \#ffff99
@@ -26,7 +26,7 @@ init = ->
   arcFill = (d, i) ->
     colors[i]
 
-  chordFill = d3.scale.category20c!
+  chordFill = d3.scale.ordinal().range(colors);
 
   svg = container.append \svg
     ..attr \width width
