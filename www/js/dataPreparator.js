@@ -2,7 +2,7 @@
 (function(){
   window.ig.getData = function(){
     var koalice, zkratky, indices, i, i$, len$, ref$, a, b, out, aNazev, bNazev, pocet, out_arr, res$, strana, obj, len, arr, j$, len1$;
-    koalice = [["KDU-ČSL", "TOP 09", 829], ["STAN", "TOP 09", 701], ["ODS", "Svobodní", 616], ["Slušní lidé", "Soukromníci", 394], ["KDU-ČSL", "Zelení", 368], ["Piráti", "Zelení", 351], ["KDU-ČSL", "STAN", 346], ["KDU-ČSL", "ODS", 228], ["ODS", "TOP 09", 205], ["Soukromníci", "Svobodní", 192], ["TOP 09", "Zelení", 191], ["Piráti", "STAN", 171], ["SPD", "SPOZ", 162], ["STAN", "Svobodní", 127], ["Piráti", "TOP 09", 112], ["Svobodní", "TOP 09", 112], ["Piráti", "Svobodní", 60], ["ODS", "STAN", 57], ["KSČM", "SPOZ", 56], ["KDU-ČSL", "Svobodní", 54], ["ČSSD", "SPOZ", 46], ["ODS", "Soukromníci", 43], ["ČSSD", "Zelení", 41], ["KDU-ČSL", "Piráti", 40], ["ČSSD", "KDU-ČSL", 39], ["STAN", "Zelení", 35], ["KDU-ČSL", "Soukromníci", 27]];
+    koalice = [["KDU-ČSL", "TOP 09", 829], ["KDU-ČSL", "STAN", 346], ["KDU-ČSL", "ODS", 228], ["KDU-ČSL", "Zelení", 368], ["KDU-ČSL", "Svobodní", 54], ["KDU-ČSL", "Piráti", 40], ["KDU-ČSL", "Soukromníci", 27], ["KDU-ČSL", "ČSSD", 39], ["TOP 09", "Zelení", 191], ["TOP 09", "STAN", 701], ["TOP 09", "ODS", 205], ["TOP 09", "Piráti", 112], ["TOP 09", "Svobodní", 112], ["STAN", "Svobodní", 127], ["STAN", "Piráti", 171], ["STAN", "ODS", 57], ["STAN", "Zelení", 35], ["ODS", "Svobodní", 616], ["ODS", "Soukromníci", 43], ["Svobodní", "Soukromníci", 192], ["Svobodní", "Piráti", 60], ["Slušní lidé", "Soukromníci", 394], ["Zelení", "Piráti", 351], ["Zelení", "ČSSD", 41], ["SPD", "SPOZ", 162], ["SPOZ", "KSČM", 56], ["SPOZ", "ČSSD", 46]];
     zkratky = {
       "Strana zelených": "SZ"
     };

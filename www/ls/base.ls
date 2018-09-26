@@ -12,17 +12,17 @@ init = ->
   colors =
     \#ffff99
     \#6a3d9a
-    \gray
-    \#1f78b4
-    \#33a02c
-    \#b15928
-    \#fdbf6f
-    \#b2df8a
-    \black
     \#a6cee3
+    \#1f78b4
+    \#b2df8a
+    \#33a02c
+    \black
+    \#fdbf6f
+    \#ff7f00
+    \#b15928
+    \gray
     \#fb9a99
     \#e31a1c
-    \#ff7f00
   arcFill = (d, i) ->
     colors[i]
 
